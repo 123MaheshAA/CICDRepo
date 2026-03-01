@@ -3,7 +3,9 @@ name: CICD PIEPLINE
 on:
   push:
     branches: [ "main" ]
-
+  commit:
+    branches: [ "main" ]
+    
 jobs:
   build:
 
